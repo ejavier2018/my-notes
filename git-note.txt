@@ -1,0 +1,31 @@
+Basic commands for local repository
+A. Initialize a local repository
+$ git init
+B. Add file to index (staging)
+$ git add <file>
+$ git add <*.txt>
+$ git add .
+C. Remove file from index (staging)
+$ git rm --cache <file>
+D. Show what is the difference between our file and whats in the repository
+$ git status
+E. Save the file from index/staging to local repository
+$ git commit
+$ git commit -m "message"
+F. Create a branch
+$ git branch <branch name>
+G. To change branch
+$ git checkout <branch name>
+H. Merge branch with master
+$ git merge '<branch name>'
+
+
+Basic commands for remote repository 
+A. Add a remote repository
+git remote add origin https://github.com/ejavier2018/my-notes.git
+A. Copy repository to local folder
+$ git clone
+A. push to remote repository
+$ git push
+B. Pull from remote repository
+$ git pull
